@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My text page</title>
+    <style>
+      body{
+        background-color: pink;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+      }
+
+      input:invalid{
+      border: 2px dashed red;
+      }
+
+    input:valid{
+      border:2px dashed black;
+      }
+    </style>
+
+  </head>
+  <body>
+<h1>My First Form</h1>
+<form class="" action="index.html" method="post">
+    <fieldset>
+
+        <div>
+
+        <label for="Name">Name :</label>
+        <input maxlength="4" name="name" required>
+
+      </div>
+      <br>
+      <div>
+        <label for="Email">Email :</label>
+        <input type=:email name="mail" required>
+
+      </div>
+      <br><br><br>
+
+<fieldset>
+  <legend>What is your favourite subject?</legend>
+
+    <input type="radio" name="subject" value="math">
+    <label for="Maths">Maths</label>
+
+    <input type="radio" name="subject" value="science">
+    <label for="Science">Science</label>
+
+    <input type="radio" name="subject" value="biology">
+    <label for="Biology">Biology</label>
+
+
+</fieldset>
+
+<br>
+
+<p>
+<label>Study Level : </label>
+<select class="study level" name="study level">
+  <option value="undergraduate">Undergraduate</option>
+  <option value=" postgraduate">Postgraduate</option>
+
+</select>
+<br>
+</p>
+<br>
+<button type="submit" name="button">Submit</button>
+<button type="reset" name="button">Reset</button>
+
+      </fieldset>
+
+          </form>
+
+  </body>
+</html>
