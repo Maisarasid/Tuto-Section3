@@ -1,0 +1,51 @@
+*{
+  font-family: Arial;
+}
+body {
+  color:blue;
+  background-color: #E6E6FA;
+  borders:1px solid black;
+}
+
+h1{
+  color: #E6E6FA;
+  background-color: #191970;
+  font-family: Times New Roman;
+  border: 3px dashed red;
+}
+
+h2 {
+  border: 3px dashed blue;
+}
+
+p {
+  color:red;
+}
+
+.classforContact{
+  color: #291970;
+}
+
+table {
+  border-collapse:collapse;
+  border:2px solid red;
+  letter-spacing: 1px;
+}
+td,th {
+  border-collapse: collapse;
+  border:2px solid red;
+  color:black;
+  padding: 10px 20px;
+}
+
+th{
+  background-color: #FFCCFF;
+}
+
+td{
+  text-align:center;
+}
+
+#price{
+  background-color: #591970
+}

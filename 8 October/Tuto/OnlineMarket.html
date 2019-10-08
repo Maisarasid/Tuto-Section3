@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="Style/Externalsheet.css">
+    <style>
+    input:invalid{
+      border: 2px dashed red;
+    }
+    input:valid {
+      border:2px solid black;
+    }
+    textarea: invalid {
+      border:2px dashed red;
+    }
+    textarea: valid {
+      border:2px solid black;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Online Market</h1>
+
+<a href="Home.html">Home</a>
+<a href="Contact.html">Contact</a>
+
+<h1>New Products Details</h1>
+
+<table>
+  <table border ="2">
+
+  <tr>
+      <th rowspan="5">Products</th>
+  </tr>
+
+  <tr>
+    <th style="color:red;">Name</th>
+
+    <td>x1</td>
+    <td>x2</td>
+    <td>x3</td>
+    <td>x4</td>
+
+  </tr>
+
+  <tr>
+    <th>Price</th>
+
+    <td id="price">2.00</td>
+    <td>5.00</td>
+    <td>7.00</td>
+    <td>9.00</td>
+
+  </tr>
+
+  <tr>
+    <th>Quantity</th>
+
+    <td>5</td>
+    <td>6</td>
+    <td>12</td>
+    <td>16</td>
+
+  </tr>
+
+
+</table>
+
+<p style= "color:red;">To order product online, please submit form below.</p>
+
+<form class="" action="index.html" method="post">
+  <fieldset>
+    <div>
+
+    <label for="Name">Name :</label>
+    <input maxlength="4" name="name" required>
+
+  </div>
+
+  <br>
+
+  <div>
+    <label for="Address">Address :</label>
+    <br>
+    <textarea name="Paragraph_text" rows="10" cols="50"></textarea>
+
+  </div>
+  <br>
+
+  <div>
+
+    <label for="Email">Email : </label>
+    <input maxlength="4" name="email" required>
+
+  </div>
+
+<br>
+
+  <div>
+    <label for="phonenum">Phone number: +60</label>
+    <input maxlength="4" name="phonenum" required>
+
+  </div>
+
+<br>
+<legend>What is your favourite subject?</legend>
+
+  <input type="radio" checked id="Math" name="subject" value="math">
+  <label for="Maths">Maths</label>
+
+  <input type="radio" name="subject" value="science">
+  <label for="Science">Science</label>
+
+  <input type="radio" name="subject" value="biology">
+  <label for="Biology">Biology</label>
+
+
+</fieldset>
+
+<br>
+
+<p>
+<label>Study Level : </label>
+<select class="study level" name="study level">
+<option value="undergraduate">Undergraduate</option>
+<option value=" postgraduate">Postgraduate</option>
+
+</select>
+<br>
+</p>
+<br>
+<button type="submit" name="button">Submit</button>
+<button type="reset" name="button">Reset</button>
+
+  <br>
+
+  </fieldset>
+</form>
+  </body>
+</html>
